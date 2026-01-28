@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&display=swap');
+
+body{
+    font-family: Inter;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.full-profile-card {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+header{
+    height: 688px;
+    width: 100%;
+    background-color: #FFFFFF;   
+}
+.navbar {
+    height: 80px;
+    line-height: 80px;
+}
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: #13183F;
+    text-decoration: none;
+    margin-left: 160px; 
+}
+.nav-btn {
+    width: 168px;
+    height: 58px;
+    background-color: #13183F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 16px;
+    margin-left: 909px;
+    
+}
+.container {
+    display: flex;
+    width: 1440px;
+    height: 560px;
+    margin: 0px 160px 0px 160px;
+    align-items: center;
+}
+.hero {
+   width: 544px;
+   height: 339px;
+   text-align: left;
+   margin-left: 0px;
+   vertical-align: middle;
+}
+.hero h1 {
+    width: 457px;
+    height: 135px;
+    font-size: 48px;
+    font-weight: 800;
+    font-style: extra-bold;
+    color: #13183F;
+    margin-bottom: 20px;
+}
+.hero-description {
+    width: 457px;
+    height: 81px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #83869A;
+    font-style: medium;
+    margin-bottom: 24px 87px 40px;
+    text-align: left;
+}
+.hero-button {
+    width: 168px;
+    height: 59px;
+    background-color: #FF6F48;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 28px;  
+}
+.img-container {
+    position: relative;
+    width: 544px;
+    height: 560px;
+    margin-left: 400px;  
+}
+.hero-img {
+    width: 317px;
+    height: 560px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;    
+}
+.rectangle-img {
+    height: 1008px;
+    width: 544px;
+    top: -312px;
+    left: 0px;
+    position: absolute;
+    z-index: 1;   
+}
+.hours-icon {
+    width: 199px;
+    height: 120px;
+    position: absolute;
+    bottom: 70px;
+    left: -130px;
+    z-index: 3;
+}
+.members-icon {
+    width: 155px;
+    height: 120px;
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    z-index: 3;
+}
+.card-wrapper {
+    
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    align-items: center;
+    margin-left: 160px;
+}
+.check-card {
+    width: 352px;
+    height: 322px;
+    background-color: #F02AA6;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 30px;
+    padding: 20px;
+}
+.check-card h2 {
+    width: 288px;
+    height: 114px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin: 64px 32px 144px 32px;
+    margin-left: 24px;
+    vertical-align: middle;
+
+}
+.card-category {
+    position: relative;
+    width: 352px;
+    height: 322px;
+    border-radius: 15px;
+    text-align: left;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 60px 0px #1b1c1f2a;
+    margin-right: 32px;
+    padding: 20px;
+}
+.general-icon {
+    position: absolute;
+    top: -28px;
+}
+.card-category h3 {
+    height: 29px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #13183F;
+    margin-top: 24px;
+    padding: 10px;
+}
+.card-category p {
+    width: 288px;
+    height: 113px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #83869A;
+    margin-top: 24px;
+    padding: 10px;
+}
+.card-category button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F74780;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+    background-color: white;
+}
+.footer {
+    height: 107px;
+    background-color: #13183F;
+    line-height: 107px;
+}
+.foot-logo {
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 160px;
+
+}
+.foot-nav-btn {
+    width: 168px;
+    height: 58px;
+    background-color: #F02AA6;  
+    border: none;
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 16px;
+    margin-left: 1009px;
+
+}
